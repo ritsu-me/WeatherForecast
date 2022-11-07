@@ -38,62 +38,84 @@
         </tr>
     </table>
     <select id="choiceList">
-        <option value="011000">稚内地方気象台(北海道)</option>
-        <option value="012000">旭川地方気象台(北海道)</option>
-        <option value="016000">札幌管区気象台(北海道)</option>
-        <option value="013000">網走地方気象台(北海道)</option>
-        <option value="014100">釧路地方気象台(北海道)</option>
-        <option value="015000">室蘭地方気象台(北海道)</option>
-        <option value="017000">函館地方気象台(北海道)</option>
-        <option value="020000">青森</option>
-        <option value="050000">秋田</option>
-        <option value="030000">岩手</option>
-        <option value="040000">宮城</option>
-        <option value="060000">山形</option>
-        <option value="070000">福島</option>
-        <option value="080000">茨城</option>
-        <option value="090000">栃木</option>
-        <option value="100000">群馬</option>
-        <option value="110000">埼玉</option>
-        <option value="130000">東京</option>
-        <option value="120000">千葉</option>
-        <option value="140000">神奈川</option>
-        <option value="200000">長野</option>
-        <option value="190000">山梨</option>
-        <option value="220000">静岡</option>
-        <option value="230000">愛知</option>
-        <option value="210000">岐阜</option>
-        <option value="240000">三重</option>
-        <option value="150000">新潟</option>
-        <option value="160000">富山</option>
-        <option value="170000">石川</option>
-        <option value="180000">福井</option>
-        <option value="250000">滋賀</option>
-        <option value="260000">京都</option>
-        <option value="270000">大阪</option>
-        <option value="280000">兵庫</option>
-        <option value="290000">奈良</option>
-        <option value="300000">和歌山</option>
-        <option value="330000">岡山</option>
-        <option value="340000">広島</option>
-        <option value="320000">島根</option>
-        <option value="310000">鳥取</option>
-        <option value="360000">徳島</option>
-        <option value="370000">香川</option>
-        <option value="380000">愛媛</option>
-        <option value="390000">高知</option>
-        <option value="350000">山口</option>
-        <option value="400000">福岡</option>
-        <option value="440000">大分</option>
-        <option value="420000">長崎</option>
-        <option value="410000">佐賀</option>
-        <option value="430000">熊本</option>
-        <option value="450000">宮崎</option>
-        <option value="460100">鹿児島</option>
-        <option value="471000">沖縄本島</option>
-        <option value="472000">大東島</option>
-        <option value="473000">宮古島</option>
-        <option value="474000">八重山</option>
+        <optgroup label="北海道地方">
+            <option value="011000">稚内地方気象台(北海道)</option>
+            <option value="012000">旭川地方気象台(北海道)</option>
+            <option value="016000">札幌管区気象台(北海道)</option>
+            <option value="013000">網走地方気象台(北海道)</option>
+            <option value="014100">釧路地方気象台(北海道)</option>
+            <option value="015000">室蘭地方気象台(北海道)</option>
+            <option value="017000">函館地方気象台(北海道)</option>
+        </optgroup>
+        <optgroup label="東北地方">
+            <option value="020000">青森地方気象台(青森県)</option>
+            <option value="050000">秋田地方気象台(秋田県)</option>
+            <option value="030000">盛岡地方気象台(岩手県)</option>
+            <option value="040000">仙台管区気象台(宮城県)</option>
+            <option value="060000">山形地方気象台(山形県)</option>
+            <option value="070000">福島地方気象台(福島県)</option>
+        </optgroup>
+        <optgroup label="関東甲信地方">
+            <option value="080000">水戸地方気象台(茨城県)</option>
+            <option value="090000">宇都宮地方気象台(栃木県)</option>
+            <option value="100000">前橋地方気象台(群馬県)</option>
+            <option value="110000">熊谷地方気象台(埼玉県)</option>
+            <option value="130000">気象庁(東京都)</option>
+            <option value="120000">銚子地方気象台(千葉県)</option>
+            <option value="140000">横浜地方気象台(神奈川県)</option>
+            <option value="200000">長野地方気象台(長野県)</option>
+            <option value="190000">甲府地方気象台(山梨県)</option>
+        </optgroup>
+        <optgroup label="東海地方">
+            <option value="220000">静岡地方気象台(静岡県)</option>
+            <option value="230000">名古屋地方気象台(愛知県)</option>
+            <option value="210000">岐阜地方気象台(岐阜県)</option>
+            <option value="240000">津地方気象台(三重県)</option>
+        </optgroup>
+        <optgroup label="北陸地方">
+            <option value="150000">新潟地方気象台(新潟県)</option>
+            <option value="160000">富山地方気象台(富山県)</option>
+            <option value="170000">金沢地方気象台(石川県)</option>
+            <option value="180000">福井地方気象台(福井県)</option>
+        </optgroup>
+        <optgroup label="近畿地方">
+            <option value="250000">彦根地方気象台(滋賀県)</option>
+            <option value="260000">京都地方気象台(京都府)</option>
+            <option value="270000">大阪管区気象台(大阪府)</option>
+            <option value="280000">神戸地方気象台(兵庫県)</option>
+            <option value="290000">奈良地方気象台(奈良県)</option>
+            <option value="300000">和歌山地方気象台(和歌山県)</option>
+        </optgroup>
+        <optgroup label="中国地方">
+            <option value="330000">岡山地方気象台(岡山県)</option>
+            <option value="340000">広島地方気象台(広島県)</option>
+            <option value="320000">松江地方気象台(島根県)</option>
+            <option value="310000">鳥取地方気象台(鳥取県)</option>
+        </optgroup>
+        <optgroup label="四国地方">
+            <option value="360000">徳島地方気象台(徳島県)</option>
+            <option value="370000">高松地方気象台(香川県)</option>
+            <option value="380000">松山地方気象台(愛媛県)</option>
+            <option value="390000">高知地方気象台(高知県)</option>
+        </optgroup>
+        <optgroup label="九州北部地方">
+            <option value="350000">下関地方気象台(山口県)</option>
+            <option value="400000">福岡管区気象台(福岡県)</option>
+            <option value="440000">大分地方気象台(大分県)</option>
+            <option value="420000">長崎地方気象台(長崎県)</option>
+            <option value="410000">佐賀地方気象台(佐賀県)</option>
+            <option value="430000">熊本地方気象台(熊本県)</option>
+        </optgroup>
+        <optgroup label="九州南部地方">
+            <option value="450000">宮崎地方気象台(宮崎県)</option>
+            <option value="460100">鹿児島地方気象台(鹿児島県)</option>
+        </optgroup>
+        <optgroup label="沖縄地方">
+            <option value="471000">沖縄気象台(沖縄本島・沖縄県)</option>
+            <option value="472000">南大東島地方気象台(大東島・沖縄県)</option>
+            <option value="473000">宮古島地方気象台(宮古島・沖縄県)</option>
+            <option value="474000">石垣島地方気象台(八重山諸島・沖縄県)</option>
+        </optgroup>
     </select>
     <button onclick="showData()">更新する</button>
 </body>
