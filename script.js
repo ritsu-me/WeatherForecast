@@ -19,6 +19,6 @@ function showData() {
             document.getElementById("targetArea").lastElementChild.textContent = area.area.name;
             document.getElementById("today").lastElementChild.textContent = area.weathers[0];
             document.getElementById("tomorrow").lastElementChild.textContent = area.weathers[1];
-            document.getElementById("dayAfterTomorrow").lastElementChild.textContent = area.weathers[2];
+            document.getElementById("winds").lastElementChild.textContent = area.winds[0];
         });
 }
